@@ -74,3 +74,5 @@
 * git push origin main
 
 * https://create-react-app.dev/docs/deployment/#step-2-install-gh-pages-and-add-deploy-to-scripts-in-packagejson
+
+*https://tproger.ru/translations/git-quick-start/

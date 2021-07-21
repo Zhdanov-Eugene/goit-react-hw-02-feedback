@@ -1,0 +1,9 @@
+.statistics,
+.notification {
+  color: rgb(205, 63, 63);
+}
+
+.item {
+  color: rgb(144, 42, 165);
+  font-weight: 700;
+}

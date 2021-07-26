@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './FeadbackSettings.module.css';
+import styles from './FeedbackOptions.module.css';
 
-const FeadbackSettings = ({ options, onLeaveFeedback }) => {
+const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div>
       {options.map(element => {
@@ -21,9 +21,9 @@ const FeadbackSettings = ({ options, onLeaveFeedback }) => {
   );
 };
 
-FeadbackSettings.propTypes = {
+FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
 
-export default FeadbackSettings;
+export default FeedbackOptions;

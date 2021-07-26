@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from './components/layout/Layout';
 import Section from './components/section/Section';
-import FeedbackSettings from './components/feadback/FeadbackSettings';
+import FeedbackOptions from './components/feadback/FeedbackOptions';
 import Statistics from './components/statistics/Statistics';
 import Notification from './components/statistics/Notification';
 
@@ -39,7 +39,7 @@ class App extends Component {
     return (
       <Layout>
         <Section title="Please leave feedback">
-          <FeedbackSettings
+          <FeedbackOptions
             options={options}
             onLeaveFeedback={this.updateStats}
           />

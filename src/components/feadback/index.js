@@ -1,1 +1,1 @@
-export { default } from '../feadback/Feadback';
+export { default } from './FeedbackOptions';
